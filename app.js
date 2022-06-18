@@ -30,9 +30,11 @@ app.post("/", (req, res) => {
     ],
   };
 
-  const apiKey = "5807590a36ed2642e1ac83a44e9937b0-us12";
-  const apiReg = "us12";
-  const apiListId = "0f8b438d07";
+  // COMPLETE API INFORMATION BELOW
+  const apiKey = "";
+  const apiReg = "";
+  const apiListId = "";
+
   const jsonData = JSON.stringify(data);
 
   const url = `https://${apiReg}.api.mailchimp.com/3.0/lists/${apiListId}`;
