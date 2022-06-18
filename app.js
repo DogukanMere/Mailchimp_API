@@ -31,9 +31,9 @@ app.post("/", (req, res) => {
   };
 
   // COMPLETE API INFORMATION BELOW
-  const apiKey = "";
-  const apiReg = "";
-  const apiListId = "";
+  const apiKey = "5807590a36ed2642e1ac83a44e9937b0-us12";
+  const apiReg = "us12";
+  const apiListId = "0f8b438d07";
 
   const jsonData = JSON.stringify(data);
 
