@@ -1,0 +1,19 @@
+{
+  "name": "mailchimp_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Dogukan Mere",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
